@@ -17,7 +17,6 @@ var connection = mysql.createConnection({
   database: "bamazon"
 });
 
-var inquirer = require('inquirer');
 var item_id = 0;
 var price = 0;
 
